@@ -1,5 +1,5 @@
 # ChatAppWithWS
-This is a simple Chat with using WebSocket
+This is a simple Chat App with using WebSocket
 ## Project Screen
 CHAT SCREEN |
 --- | 
