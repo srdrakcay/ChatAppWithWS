@@ -20,5 +20,5 @@ CHAT SCREEN |
 
 - [Navigation Componenet](https://developer.android.com/guide/navigation):Navigation refers to the interactions that allow users to navigate across, into, and back out from the different pieces of content within your app. Android Jetpack's Navigation component helps you implement navigation, from simple button clicks to more complex patterns, such as app bars and the navigation drawer.
 
--- [Pie Socket ](https://www.piesocket.com/): A WebSocket tool
+- [Pie Socket ](https://www.piesocket.com/): A WebSocket tool
 
