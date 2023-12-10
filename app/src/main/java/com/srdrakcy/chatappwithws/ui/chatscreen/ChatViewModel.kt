@@ -17,21 +17,15 @@ class ChatViewModel  @Inject constructor() :ViewModel(){
          private val eventChannel = Channel<WebSocketResource>()
          val eventFlow = eventChannel.receiveAsFlow()
 
-             private val _messages = MutableLiveData<String>()
-             val messages: LiveData<String> = _messages
+          private val _messages = MutableLiveData<String>()
+        val messages: LiveData<String> = _messages
 
-
-
-
-    fun triggerEvent(boardType: WebSocketResource) = viewModelScope.launch {
+ fun triggerEvent(boardType: WebSocketResource) = viewModelScope.launch {
         eventChannel.send(boardType)
     }
 
-            fun addMessage(message: String) {
-                _messages.postValue(message)
-            }
-
-
-
+   fun addMessage(message: String) {
+        _messages.postValue(message)
+      }
 
 }
